@@ -1,6 +1,8 @@
+import React from 'react';
 import './App.css';
 import NavigationBar  from './components/navigation/NavigationBar';
-// import SignUp from './components/signup/SignUp';
+import SignUp from './components/signup/SignUp';
+import Login from './components/login/Login';
 import CardComponent from './components/products/CardComponent';
 
 
@@ -13,7 +15,10 @@ function App() {
          <CardComponent />
        </div>
        
-        {/* <SignUp /> */}
+        {/* <SignUp />
+
+       <Login /> */}
+        
     </div>
   );
 }
