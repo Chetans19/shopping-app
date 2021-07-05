@@ -28,6 +28,10 @@
   padding: 20px;
 }
 
+.login-component {
+    background-color: teal;
+}
+
 .App-link {
   color: #61dafb;
 }
